@@ -1,0 +1,54 @@
+span {
+    display: flex;
+    font-size: 90px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    transform: translateY(220px);
+    background-image: linear-gradient(90deg, #42378f, #f53844);
+    background-image: -webkit-linear-gradient(90deg, #42378f, #f53844);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    margin-left: 30%;
+    z-index: 100;
+
+}
+
+html {
+    background-image:linear-gradient(90deg, #1fd1f9, #b621fe);
+
+    background-image:-webkit-linear-gradient(90deg, #1fd1f9, #b621fe);
+}
+.img1 {
+    height: 100%;
+    width:33%;
+}
+div {
+    display: flex;
+}
+i {
+    padding: 10px;
+}
+.social a {
+    border:1.5px solid rgb(117, 32, 173);
+    border-radius: 100%;
+    margin-left: 10px;
+}
+.social a:hover {
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    background-color: #5646bd;
+}
+.img1:hover {
+    transform: translateX(-10px);
+    transition: all 0.3s ease
+}
+span:hover {
+    transition: all 0,3s ease;
+    background-image: linear-gradient(21deg, #dd03e4, #5611ec);
+    background-image: -webkit-linear-gradient(21deg, #dd03e4, #5611ec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
