@@ -17,7 +17,6 @@ span {
 }
 
 .img1 {
-    display: flex;
     height: 100%;
     width:33%;
     position:absolute;
@@ -35,7 +34,6 @@ i {
     border-radius: 100%;
     margin-left: 10px;
     z-index: 100;
-    display: flex;
 }
 .social a:hover {
     transform: translateY(10px);
@@ -52,4 +50,7 @@ span:hover {
     background-image: -webkit-linear-gradient(21deg, #dd03e4, #5611ec);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+html {
+    z-index: 80;
 }
