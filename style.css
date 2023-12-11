@@ -16,14 +16,12 @@ span {
 
 }
 
-html {
-    background-image:linear-gradient(90deg, #1fd1f9, #b621fe);
-
-    background-image:-webkit-linear-gradient(90deg, #1fd1f9, #b621fe);
-}
 .img1 {
     height: 100%;
     width:33%;
+    position:absolute;
+    z-index: 90;
+    margin-left: 60%;
 }
 div {
     display: flex;
@@ -35,6 +33,7 @@ i {
     border:1.5px solid rgb(117, 32, 173);
     border-radius: 100%;
     margin-left: 10px;
+    z-index: 100;
 }
 .social a:hover {
     transform: translateY(10px);
