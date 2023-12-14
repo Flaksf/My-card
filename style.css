@@ -63,15 +63,15 @@ html {
         margin-left: 25%;
     
     }
+    .img1{
+        width: 45%;
+    }
 }
 @media (min-width: 768px){
     .span{
         margin-left: 25%;
         transform: translateY(280px);
     
-    }
-    .img1{
-        width: 55%;
     }
     .bx{
         font-size:50;
