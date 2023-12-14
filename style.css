@@ -73,6 +73,9 @@ html {
         transform: translateY(280px);
     
     }
+    .img1{
+        width: 55%;
+    }
     .bx{
         font-size:50;
     }
@@ -89,7 +92,7 @@ html {
 }
 @media (min-width: 320px){
     .img1{
-        width:90%
+        width:35%
     }
     .span{
         transform: translateY(650px);
